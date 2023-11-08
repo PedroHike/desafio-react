@@ -1,9 +1,14 @@
 import './App.css';
 import Paragraph from "./components/paragraph/paragraph"
+import Button from './components/button/button';
 
 function App() {
   return (
-    <Paragraph text= 'Esse é um parágrafo comum'/>
+    <>
+      <Paragraph text= 'Pediram para escrever um parágrafo, mas não disseram qual texto colocar, então coloquei um texto aleatório 😂'/>
+      <Button label='Se inscrever'/>
+      <Button/>
+    </>
   );
 }
 
