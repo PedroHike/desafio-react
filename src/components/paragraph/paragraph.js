@@ -1,10 +1,7 @@
 import './paragraph.css'
 
-const Paragraph = (props)=>{
-    return <p className = "text" >{props.text}</p>
+const Paragraph = ({text, color})=>{
+    return <p className = "text" style={{color: color, textTransform:'uppercase'}}>{text}</p>
 }
 
-Paragraph.defaultProps = {
-    color: 'red'
-}
 export default Paragraph
